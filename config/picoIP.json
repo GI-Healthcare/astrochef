@@ -1,0 +1,4 @@
+{
+    "StepperPICO": "192.168.137.17",
+    "Relay": "localhost:8000"
+  }

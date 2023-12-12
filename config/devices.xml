@@ -1,0 +1,40 @@
+<!--Extraction Fan-->
+<device id="extractionFan" value="1 (on)"></device>
+<device id="extractionFan" value="0 (off)"></device> 
+
+<!--Oil Pump-->
+<device id="oilPump" value="1 (on)"></device>
+<device id="oilPump" value="0 (off)"></device> 
+
+<!--Water Pump-->
+<device id="waterPump" value="1 (on)"></device>
+<device id="waterPump" value="0 (off)"></device> 
+
+<!--Washing water Pump-->
+<device id="washWaterPump" value="1 (on)"></device>
+<device id="washWaterPump" value="0 (off)"></device> 
+
+<!--Induction-->
+<device id="induction" value="unlock"></device> 
+<device id="induction" value="lock"></device> 
+
+<device id="induction" value="on"></device> 
+<device id="induction" value="off"></device> 
+
+<device id="induction" value="1 to 9 (temperature increase)"></device> 
+<device id="induction" value="-9 to 0 (temperatrure decrease)"></device> 
+
+<!--Gantry stepper-->
+<device id="gantryStepper" value="(home, oil, water, spice, stir, wash, delivery)"></device> 
+
+<!--Pot stepper-->
+<device id="potStepper" value="(number of shakes)"></device> 
+
+<!--Spice delivery stepper-->
+<device id="spiceDelivery" value="1_3 (container_pusher)"></device> 
+
+<!--Big delivery stepper-->
+<device id="bigDelivery" value="0 to 4 (container)"></device> 
+
+<!--Status LED-->
+<device id="deviceLED" value="000_000_000 (R_G_B)"></device> 

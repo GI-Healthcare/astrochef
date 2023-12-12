@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<start>
+	<ingredients>
+
+	<!--Add your ingredients here-->
+	<item id="1" name="Water"></item>
+
+	</ingredients>
+
+	<recipe name = "WaterBoil">
+
+		<!--Start writing your recipe here-->
+		<device id="extractionFan" value="1"></device>
+		
+		<device id="gantryStepper" value="2"></device>
+		<device id="waitTime" value="1"></device>
+
+		<device id="waterPump" value="1"></device>
+		<device id="waitTime" value="45"></device>
+		<device id="waterPump" value="0"></device>
+
+		<device id="induction" value="10"></device>
+		<device id="induction" value="12"></device>
+
+		<device id="gantryStepper" value="3"></device>
+		
+		<device id="potStepper" value="-1"></device>
+		
+		<device id="induction" value="9"></device>
+		
+		<device id="stirring" value="3_50"></device> 
+
+		<device id="induction" value="0"></device>
+		
+		<device id="potStepper" value="0"></device>
+		
+		<device id="induction" value="13"></device>
+		<device id="induction" value="11"></device>
+
+		<device id="gantryStepper" value="0"></device>
+		
+		<device id="extractionFan" value="0"></device>
+	</recipe>
+</start>

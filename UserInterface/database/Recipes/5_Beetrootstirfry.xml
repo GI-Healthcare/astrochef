@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<start>
+	<ingredients>
+
+	<!--Add your ingredients here-->
+	<item id="1" name="Potato"></item>
+	<item id="1" name="Beetroot"></item>
+	<item id="1" name="Water"></item>
+
+	</ingredients>
+
+	<recipe name = "Beetrootstirfry">
+
+		<!--Start writing your recipe here-->
+		<device id="extractionFan" value="1"></device>
+		
+		<device id="gantryStepper" value="1"></device>
+		
+		<device id="induction" value="10"></device>
+		<device id="induction" value="12"></device>
+		
+		<device id="induction" value="5"></device>
+		
+		<device id="waitTime" value="1"></device>
+		<device id="oilPump" value="1"></device>
+		<device id="waitTime" value="13"></device>
+		<device id="oilPump" value="0"></device>
+		
+		<device id="gantryStepper" value="0"></device>
+		
+		<device id="waitTime" value="1"></device>
+		<device id="bigDelivery" value="1"></device> 
+		<device id="bigDelivery" value="2"></device> 
+		<device id="bigDelivery" value="3"></device> 
+		
+		<device id="gantryStepper" value="3"></device>
+		
+		<device id="potStepper" value="-1"></device> 
+		
+		<device id="stirring" value="1_30"></device>
+		<device id="stirring" value="1_30"></device> 
+		
+		<device id="potStepper" value="0"></device>
+		
+		<device id="spiceDelivery" value="0_5"></device> 
+		<device id="spiceDelivery" value="1_4"></device> 
+		
+		<device id="potStepper" value="-1"></device> 
+		
+		<device id="stirring" value="1_30"></device> 
+		<device id="stirring" value="1_30"></device> 
+		<device id="stirring" value="1_30"></device> 
+		
+		<device id="induction" value="0"></device>
+		
+		<device id="induction" value="12"></device>
+		
+		<device id="induction" value="10"></device>
+		
+		<device id="gantryStepper" value="6"></device>
+		
+		<device id="potStepper" value="-2"></device>
+		
+		<device id="extractionFan" value="0"></device>
+	</recipe>
+</start>

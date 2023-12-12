@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<start>
+	<recipe>
+
+		<!--Start writing your recipe here-->
+		<device id="extractionFan" value="1"></device>
+		<device id="gantry" value="1000"></device>
+		<device id="induction" value="unlock"></device>
+		<device id="induction" value="on"></device>
+		<device id="induction" value="9"></device>
+		
+	</recipe>
+</start>

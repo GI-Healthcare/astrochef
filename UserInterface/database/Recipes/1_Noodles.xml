@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<start>
+	<ingredients>
+
+		<!--Add your ingredients here-->
+		<item id="1" name="Vegetables"></item>
+		<item id="2" name="Noodles"></item>
+		<item id="3" name="Spring Onion"></item>
+		<item id="4" name="Onion"></item>
+
+	</ingredients>
+
+	<recipe name = "Noodles">
+
+		<!--Start writing your recipe here-->
+		<device id="extractionFan" value="1"></device>
+		<device id="gantryStepper" value="1000"></device>
+		<device id="induction" value="unlock"></device>
+		<device id="induction" value="on"></device>
+		<device id="induction" value="9"></device>
+		
+	</recipe>
+</start>

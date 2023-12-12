@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<start>
+	<ingredients>
+
+		<!--Add your ingredients here-->
+		<item id="1" name="Random 1"></item>
+		<item id="2" name="Random 2"></item>
+		<item id="3" name="Random 3"></item>
+		<item id="4" name="Random 4"></item>
+
+	</ingredients>
+
+	<recipe name = "Test">
+
+		<!--Start writing your recipe here-->
+		
+		<device id="extractionFan" value="1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="extractionFan" value="0"></device>
+		
+		<device id="oilPump" value="1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="oilPump" value="0"></device> 
+		
+		<device id="waterPump" value="1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="waterPump" value="0"></device>
+		
+		<device id="washWaterPump" value="1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="washWaterPump" value="0"></device>
+		
+		<device id="induction" value="10"></device>
+		<device id="induction" value="12"></device>
+		<device id="induction" value="4"></device>
+		<device id="induction" value="-2"></device>
+		<device id="induction" value="0"></device>
+		<device id="induction" value="11"></device>
+
+		
+		<device id="gantryStepper" value="1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="gantryStepper" value="2"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="gantryStepper" value="3"></device>
+		<device id="waitTime" value="2"></device>
+		
+		<device id="potStepper" value="-1"></device>
+		<device id="potStepper" value="1"></device>
+		<device id="potStepper" value="-2"></device>
+		<device id="potStepper" value="0"></device>
+		
+		<device id="gantryStepper" value="4"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="gantryStepper" value="5"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="gantryStepper" value="0"></device>
+
+		<device id="bigDelivery" value="3"></device>
+		<device id="bigDelivery" value="0"></device>
+		
+		<device id="spiceDelivery" value="3_1"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="spiceDelivery" value="0_2"></device>
+
+		<device id="stirring" value="1_3"></device>
+		<device id="waitTime" value="2"></device>
+		<device id="stirring" value="3_1"></device>
+
+		<device id="door" value="1"></device>
+		
+	</recipe>
+</start>

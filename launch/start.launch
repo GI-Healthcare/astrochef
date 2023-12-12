@@ -1,0 +1,11 @@
+<launch>
+
+	<!--python nodes start-->
+    
+	<node pkg="astrochef" type="app.py" name="startUI"/>
+
+	<node pkg="astrochef" type="sendCMD.py" name="statusCommands" output="screen"/>
+
+	<!--python nodes ends-->
+	
+</launch>
